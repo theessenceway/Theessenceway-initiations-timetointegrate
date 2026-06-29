@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{overflow-x:hidden}
 
 :root{
   --crimson:#7a301e;
@@ -591,6 +592,11 @@ footer{
   .closing-quote{margin:22px auto 0;padding-top:18px;font-size:16px;line-height:1.75}
   .closing-tagline{font-size:10px;margin-top:14px}
   .quote-card{min-height:220px}
+  .card{width:calc(100% - 16px)}
+  .card-reveal.from-left{transform:translateX(-12px)}
+  .card-reveal.from-right{transform:translateX(12px)}
+  .rev-left{transform:translateX(-18px)}
+  .rev-right{transform:translateX(18px)}
   .reviews-grid{gap:10px}
   .review-card{padding:14px 12px}
   .review-avatar{width:46px;height:46px}
